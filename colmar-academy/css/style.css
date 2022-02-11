@@ -52,7 +52,7 @@ html {
   .container-content .content-main {
     width: 60%;
     padding: 2rem 1.5rem 2rem 0;
-    border-right: 1px solid rgb(245, 245, 245);
+    border-right: 1px solid #8d8d8d
   }
   
   .container-content .content-2 {
@@ -62,12 +62,20 @@ html {
     padding: 2rem 0;
   }
   
+  header .container-header a {
+      text-decoration: none;
+      color: gray;
+  }
+
+  /* header .container-header span {
+      color: gray;
+  } */
 
   
   .box-img {
     display: flex;
     padding: 1rem 0 1rem 1rem;
-    border-bottom: 1px solid rgb(245, 245, 245);
+    border-bottom: 1px solid #8d8d8d
   }
   
   .box-img:first-child {
@@ -153,7 +161,7 @@ html {
   header li:last-child {
     padding-right: 0;
   }
-  
+
   header .mobile {
     display: none;
   }
@@ -214,9 +222,10 @@ html {
   
   #banner a {
     padding: 0.5rem 0;
-    background-color: rgb(155, 155, 155);
+    background-color: gray;
     text-align: center;
     color: white;
+    text-decoration: none;
   }
   
   @media only screen and (max-width: 770px) {
@@ -277,6 +286,15 @@ html {
     padding: 2rem 3.5rem;
     background-color: rgb(245, 245, 245);
   }
+
+  #section-3 a {
+      text-decoration: none;
+      color: gray;
+  }
+
+  #section-3 a h3{
+      color: rgb(51, 51, 51);
+  }
   
   .courses-row {
     display: flex;
@@ -296,6 +314,8 @@ html {
   .course h4 {
     padding-bottom: 0.5rem;
   }
+
+
   
   @media only screen and (max-width: 770px) {
     #section-3 {
