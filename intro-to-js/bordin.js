@@ -18,7 +18,7 @@ function calAge() {
 
 function loadProfile() {
    const name = "Bordin Tharwee In"
-   const province = "Surin, Thailand"
+   const province = "Surin, Krung Thep, Thailand"
    document.getElementById("my-name").innerHTML = name;
    document.getElementById("my-province").innerHTML = province;
 }
