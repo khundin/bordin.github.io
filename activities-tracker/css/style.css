@@ -27,6 +27,7 @@ body::before {
   /* border: 1px solid greenyellow; */
   background-color: lightgrey;
   width: 75%;
+  height: 75%;
   padding: 50px 50px;
   border-radius: 35px;
 }
@@ -37,6 +38,10 @@ body::before {
 
 .div1-1 .col-form-label {
   color: #225cf3;
+}
+
+.div1-1 #inputDescription {
+  height: 150px;
 }
 
 .container1 {
