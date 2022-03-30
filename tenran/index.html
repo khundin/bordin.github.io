@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="navbar-logo">
+      <span><strong>Ten</strong>Run</span>
+    </div>
+    <div class="navbar-menu">
+      <ul>
+        <li>Home</li>
+        <li>Add activity</li>
+        <li>Activity list</li>
+        <li>Sign up</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="container-main">
+      <div class="container-header">
+        <h2>Add activity</h2>
+      </div>
+      <div class="container-sec">
+
+        <div class="container-box1">
+          <div class="div-input">
+            <label for="activity-name">Name</label>
+            <div>
+              <input type="text" placeholder=" Name">
+            </div>
+          </div>
+          <div class="div-input">
+            <label for="activity-description">Description</label>
+            <div>
+              <textarea name="description" id="description" cols="30" rows="10" placeholder=" Description"></textarea>
+            </div>
+          </div>
+          <div class="div-input">
+            <label for="activity-duration">Duration</label>
+            <div>
+              <input type="time">
+            </div>
+          </div>
+          <div class="div-input">
+            <label for="activity-date">Date</label>
+            <div>
+              <input type="date">
+            </div>
+          </div>
+        </div>
+
+        <div class="container-box2">
+          <div class="activity-icon">
+            <button type="radio"><i class="fa-solid fa-person-walking"></i></button>
+          </div>
+          <div class="activity-icon">
+            <button type="radio"><i class="fa-solid fa-person-running"></i></button>
+          </div>
+          <div class="activity-icon">
+            <button type="radio"><i class="fa-solid fa-person-swimming"></i></button>
+          </div>
+          <div class="activity-icon">
+            <button type="radio"><i class="fa-solid fa-person-biking"></i></button>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="container-btn">
+        <button>Save</button>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
