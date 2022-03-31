@@ -33,6 +33,10 @@ body {
     letter-spacing: 3px;
 }
 
+.navbar-bar {
+    display: none;
+}
+
 .navbar-logo :hover {
     cursor: pointer;
     color: darkblue;
@@ -84,6 +88,10 @@ body {
     padding-left: 2rem;
 }
 
+.container-header .btn-add-icon {
+    display: none;
+}
+
 .container-header h2 {
     color:#225cf3;
     letter-spacing: 2px;
@@ -128,4 +136,69 @@ body {
 .container-row-sh-data:hover {
     cursor: pointer;
     color: greenyellow;
+}
+
+@media only screen and (max-width: 595px) {
+    .navbar-menu {
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        margin-top: 25px;
+        border-radius: 0px 0px 15px 15px;
+        display: none;
+    }
+
+    .navbar-menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar-menu ul li {
+        padding: 15px 20px;
+    }
+
+    .navbar-bar {
+        display: block;
+        padding-right: 2.5rem;
+        cursor: pointer;
+    }
+
+    .show {
+        display: flex;
+    }
+
+    .container-main {
+        width: 90%;
+        height: 90%;
+        overflow: hidden;
+        padding: 1rem;
+    }
+
+    .container-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem auto;
+    }
+
+    .container-header h2 {
+        font-size: medium;
+    }
+    
+    .container-header .btn-add-normal {
+        display: none;
+    }
+
+    .container-header .btn-add-icon {
+        display: contents;
+        font-size: 2rem;
+        color: orangered;
+    }
+
+    .container-sh-data {
+        padding-left: 0;
+    }
+
+    .container-row-sh-data {
+        font-size: smaller;
+    }
 }

@@ -33,6 +33,10 @@ body {
     letter-spacing: 3px;
 }
 
+.navbar-bar {
+    display: none;
+}
+
 .navbar-logo :hover {
     cursor: pointer;
     color: darkblue;
@@ -176,7 +180,31 @@ body {
 
 @media only screen and (max-width: 595px) {
     .navbar-menu {
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        margin-top: 25px;
+        border-radius: 0px 0px 15px 15px;
         display: none;
+    }
+
+    .navbar-menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar-menu ul li {
+        padding: 15px 20px;
+    }
+
+    .navbar-bar {
+        display: block;
+        padding-right: 2.5rem;
+        cursor: pointer;
+    }
+
+    .show {
+        display: flex;
     }
 
     .container-main {
